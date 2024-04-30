@@ -1,5 +1,3 @@
-li = [1,5,8,7,5,6,4,1]
-
 def merge(arr):
     if len(arr) > 1:
 
@@ -33,7 +31,3 @@ def merge(arr):
 
     else:
         pass
-
-merge(li)
-
-print(li)
