@@ -1,5 +1,3 @@
-li = [10,7,4,5,2,9,6,1,3,8]
-
 def quick(arr):
     pivot_idx = 0
     pivot = arr[pivot_idx]
@@ -33,6 +31,3 @@ def quick(arr):
         arr[pivot_idx+1:] = quick(arr[pivot_idx+1:])
 
     return arr
-
-quick(li)
-print(li)
